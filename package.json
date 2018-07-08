@@ -1,0 +1,21 @@
+{
+  "name": "job-tracker",
+  "version": "1.0.0",
+  "description": "A job application tracking tool",
+  "main": "index.js",
+  "repository": "git@github.com:agupta93/job-tracker.git",
+  "author": "Akshat Gupta <a.gupta93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "dependencies": {
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3",
+    "css-loader": "^1.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0"
+  }
+}
